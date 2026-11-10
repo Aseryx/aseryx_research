@@ -10,7 +10,9 @@ The readiness score rates one table from 0 to 100 on how clean and well-formed i
 |---|---|
 | [heldout9/](heldout9/README.md) | Held-out set 9: 160 files registered before download, scored once by every version of the score from v6 to v11. No version passed. |
 
-Each test folder has the registration as it was accepted, every file with its publisher, licence and link, what was left out and why, each file's score under each version, and the intervals on every comparison.
+Each test folder has the registration as it was accepted, every file with its publisher, licence and link, what was left out and why, each file's score under each version, and the intervals on every comparison. Its `SHA256SUMS` lists every file in the folder, and `SHA256SUMS.ots` is an OpenTimestamps proof of that list.
+
+How a held-out set is registered, and from set 10 on published here before any download: [REGISTERING.md](REGISTERING.md).
 
 ## What is published and what is not
 
@@ -27,6 +29,16 @@ For v11, the version live in the product, every published score also comes with 
 Every table and registration under a test folder is generated from our working record by a script, and the proofs are written by the same harness that tests the product's circuit. The script recomputes each mark from the scores it is about to publish and stops if one differs from the recorded mark. Nothing is copied by hand.
 
 A published registration is never edited. A correction is a new dated change.
+
+To check a folder's files and when they were published:
+
+```
+cd heldout9
+shasum -a 256 -c SHA256SUMS
+ots verify SHA256SUMS.ots
+```
+
+`ots` is the OpenTimestamps client (`pip install opentimestamps-client`). It reports the Bitcoin block that confirms the list existed. For set 9 that date is after scoring, so it dates the publication, not the registration.
 
 ## Licence
 
