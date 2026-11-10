@@ -1,5 +1,7 @@
 # Aseryx research
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24117307.svg)](https://doi.org/10.5281/zenodo.24117307)
+
 The test record behind the Aseryx readiness score: how each test was set up, what was scored, and what came out, including the results that went against us.
 
 The readiness score rates one table from 0 to 100 on how clean and well-formed it is. A summary with charts is at [aseryx.xyz/benchmarks](https://aseryx.xyz/benchmarks). This repository holds the files behind it.
@@ -39,6 +41,12 @@ ots verify SHA256SUMS.ots
 ```
 
 `ots` is the OpenTimestamps client (`pip install opentimestamps-client`). It reports the Bitcoin block that confirms the list existed. For set 9 that date is after scoring, so it dates the publication, not the registration.
+
+## How to cite
+
+Faulkner-Pearce, A. (2026). *Aseryx research: held-out tests of the Aseryx readiness score* (Version heldout9-v1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24117308
+
+Each release is archived on Zenodo with its own DOI. [10.5281/zenodo.24117307](https://doi.org/10.5281/zenodo.24117307) always points to the latest. GitHub's "Cite this repository" button gives the same citation from `CITATION.cff`.
 
 ## Licence
 

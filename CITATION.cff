@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this record, please cite it as below."
+message: "If you use this record, please cite it as below. The DOI covers every version; each release also has its own DOI on Zenodo."
 type: dataset
 title: "Aseryx research: held-out tests of the Aseryx readiness score"
 abstract: >-
@@ -17,6 +17,7 @@ authors:
     given-names: Austin
     affiliation: Aseryx
 license: CC-BY-4.0
+doi: 10.5281/zenodo.24117307
 repository-code: "https://github.com/Aseryx/aseryx_research"
 url: "https://aseryx.xyz/benchmarks"
 keywords:
