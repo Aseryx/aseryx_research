@@ -1,17 +1,17 @@
 cff-version: 1.2.0
 message: "If you use this record, please cite it as below. The DOI covers every version; each release also has its own DOI on Zenodo."
 type: dataset
-title: "Aseryx research: held-out tests of the Aseryx readiness score"
+title: "Aseryx research: held-out tests of the Aseryx quality score"
 abstract: >-
-  The test record behind the Aseryx readiness score, a 0 to 100 rating of how
-  clean and well-formed a table is. Held-out set 9: 160 public files registered
-  before download, labelled from their publishers' own documentation, and scored
-  once by every version of the score from v6 to v11. No version passed. The
-  record gives every file's source, licence, SHA-256 and score per version,
-  95% bootstrap intervals on every comparison, every exclusion and deviation,
-  and a Groth16 zero-knowledge proof of every v11 score, checkable against a
-  published verification key and a verifier contract on Avalanche Fuji. The
-  scoring rules and engines are not published.
+  The test record behind the Aseryx quality score, a 0 to 100 rating of how
+  clean and well-formed a dataset is. Held-out set 9: 160 public files
+  registered before download, labelled from their publishers' own documentation,
+  and scored once by every version of the score from v6 to v11. No version
+  passed. The record gives every file's source, licence, SHA-256 and score per
+  version, 95% bootstrap intervals on every comparison, every exclusion and
+  deviation, and a Groth16 zero-knowledge proof of every v11 score, checkable
+  against a published verification key and a verifier contract on Avalanche
+  Fuji. The scoring rules and engines are not published.
 authors:
   - family-names: Faulkner-Pearce
     given-names: Austin
@@ -27,5 +27,5 @@ keywords:
   - zero-knowledge proofs
   - Groth16
   - benchmarks
-version: heldout9-v1
+version: heldout9-v1.1
 date-released: "2026-11-10"
