@@ -1,0 +1,14 @@
+{
+  "name": "aseryx_research",
+  "private": true,
+  "type": "module",
+  "description": "The test record behind the Aseryx readiness score",
+  "scripts": {
+    "verify": "node heldout9/verify.mjs",
+    "verify:onchain": "node heldout9/verify.mjs --onchain"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "snarkjs": "^0.7.6"
+  }
+}
