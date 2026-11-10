@@ -40,7 +40,7 @@ shasum -a 256 -c SHA256SUMS
 ots verify SHA256SUMS.ots
 ```
 
-`ots` is the OpenTimestamps client (`pip install opentimestamps-client`). It reports the Bitcoin block that confirms the list existed. For set 9 that date is after scoring, so it dates the publication, not the registration.
+`ots` is the OpenTimestamps client (`pip install opentimestamps-client`). It reports the Bitcoin block that confirms the list existed. For set 9 that date is after scoring, so it dates the publication, not the registration. Set 9's list is confirmed in Bitcoin block 975,331, mined on 2026-11-10 at 18:17 UTC.
 
 ## How to cite
 
