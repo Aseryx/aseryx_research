@@ -11,6 +11,7 @@ The quality score rates one dataset from 0 to 100 on how clean and well-formed i
 | Folder | What it holds |
 |---|---|
 | [heldout9/](heldout9/README.md) | Held-out set 9: 160 files registered before download, scored once by every version of the score from v6 to v11. No version passed. |
+| [METHODS.md](METHODS.md) | A short methods note: how set 9 was designed and run, what it found, and what it cannot show |
 
 Each test folder has the registration as it was accepted, every file with its publisher, licence and link, what was left out and why, each file's score under each version, and the intervals on every comparison. Its `SHA256SUMS` lists every file in the folder, and `SHA256SUMS.ots` is an OpenTimestamps proof of that list.
 
