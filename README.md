@@ -2,9 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24117307.svg)](https://doi.org/10.5281/zenodo.24117307)
 
-The test record behind the Aseryx readiness score: how each test was set up, what was scored, and what came out, including the results that went against us.
+The test record behind the Aseryx quality score: how each test was set up, what was scored, and what came out, including the results that went against us.
 
-The readiness score rates one table from 0 to 100 on how clean and well-formed it is. A summary with charts is at [aseryx.xyz/benchmarks](https://aseryx.xyz/benchmarks). This repository holds the files behind it.
+The quality score rates one dataset from 0 to 100 on how clean and well-formed it is. A summary with charts is at [aseryx.xyz/benchmarks](https://aseryx.xyz/benchmarks). This repository holds the files behind it.
 
 ## What is here
 
@@ -45,6 +45,8 @@ ots verify SHA256SUMS.ots
 ## How to cite
 
 Faulkner-Pearce, A. (2026). *Aseryx research: held-out tests of the Aseryx readiness score* (Version heldout9-v1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24117308
+
+This is the title the record was archived under. From the next release it reads "held-out tests of the Aseryx quality score", and the citation follows the release you cite.
 
 Each release is archived on Zenodo with its own DOI. [10.5281/zenodo.24117307](https://doi.org/10.5281/zenodo.24117307) always points to the latest. GitHub's "Cite this repository" button gives the same citation from `CITATION.cff`.
 

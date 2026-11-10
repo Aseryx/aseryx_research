@@ -1,6 +1,6 @@
 # Working in aseryx_research
 
-The public record of the Aseryx readiness score's held-out tests. Everything here is public the moment it is pushed, and each GitHub release is archived on Zenodo with its own DOI.
+The public record of the Aseryx quality score's held-out tests. Everything here is public the moment it is pushed, and each GitHub release is archived on Zenodo with its own DOI.
 
 ## Where the content comes from
 
@@ -21,7 +21,9 @@ To change a number or a sentence in a test folder, change the record or the gene
 - From set 10 on, follow `REGISTERING.md`: freeze the versions, publish and stamp the registration before any download, and publish the results beside it.
 - After regenerating a folder, rewrite its `SHA256SUMS`, stamp it again, and run `node heldout<N>/verify.mjs` (and `--onchain`) before pushing.
 - A new DOI comes only from a GitHub release (`gh release create`). Commits alone do not change the Zenodo record. Update `CITATION.cff` (`version`, `date-released`) with each release.
+- `CITATION.cff` must match the Zenodo record of the latest release, so its `title` and `abstract` change only with a release. `.zenodo.json` already holds the next release's title, "Aseryx research: held-out tests of the Aseryx quality score" (approved messaging says quality score, not readiness score): copy that title and abstract into `CITATION.cff` in the release commit.
 - Merge pull requests with `gh pr merge <n> --rebase --delete-branch`.
+- Here, unlike on aseryx.xyz, technical terms stay (zero-knowledge, Groth16, Avalanche Fuji): researchers need them to check the proofs. The website follows the copy rules' word list and links here (Austin, 2026-11-10).
 
 ## Memory
 

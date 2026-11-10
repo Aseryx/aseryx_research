@@ -1,6 +1,6 @@
 # How a held-out set is registered
 
-A held-out set tests frozen versions of the readiness score on files none of them has seen. It counts only if everything that could be bent after seeing the results was fixed before any file was downloaded. This page is the order we follow, from held-out set 10 on.
+A held-out set tests frozen versions of the quality score on files none of them has seen. It counts only if everything that could be bent after seeing the results was fixed before any file was downloaded. This page is the order we follow, from held-out set 10 on.
 
 ## Order
 

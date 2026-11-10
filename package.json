@@ -2,7 +2,7 @@
   "name": "aseryx_research",
   "private": true,
   "type": "module",
-  "description": "The test record behind the Aseryx readiness score",
+  "description": "The test record behind the Aseryx quality score",
   "scripts": {
     "verify": "node heldout9/verify.mjs",
     "verify:onchain": "node heldout9/verify.mjs --onchain"
