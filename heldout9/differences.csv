@@ -1,0 +1,61 @@
+earlier,later,mark,difference_points,low_points,high_points,share_of_resamples_later_ahead,interval_excludes_zero
+v6,v7,good files at 90 or more,48.5,36.5,60.3,1,yes
+v6,v7,dirty files under 70,-24.3,-39.0,-11.1,0,yes
+v6,v7,good above dirty,-3.9,-15.3,7.7,0.2498,no
+v6,v7,original at least its twin,-7.4,-18.5,0.0,0,no
+v6,v8,good files at 90 or more,36.4,25.0,47.9,1,yes
+v6,v8,dirty files under 70,-13.5,-25.6,-3.0,0,yes
+v6,v8,good above dirty,-2.3,-13.3,8.4,0.3508,no
+v6,v8,original at least its twin,-14.8,-30.0,-3.4,0,yes
+v6,v9,good files at 90 or more,43.9,32.2,55.9,1,yes
+v6,v9,dirty files under 70,-27.0,-41.9,-13.2,0,yes
+v6,v9,good above dirty,-7.3,-19.3,5.0,0.119,no
+v6,v9,original at least its twin,-11.1,-25.0,0.0,0,no
+v6,v10,good files at 90 or more,43.9,32.1,56.1,1,yes
+v6,v10,dirty files under 70,-16.2,-31.0,-2.6,0.0053,yes
+v6,v10,good above dirty,3.5,-8.8,16.1,0.709,no
+v6,v10,original at least its twin,3.7,-8.7,16.7,0.6014,no
+v6,v11,good files at 90 or more,39.4,27.6,51.4,1,yes
+v6,v11,dirty files under 70,-5.4,-16.7,5.0,0.0964,no
+v6,v11,good above dirty,3.1,-9.8,16.1,0.683,no
+v6,v11,original at least its twin,3.7,-8.7,16.7,0.6014,no
+v7,v8,good files at 90 or more,-12.1,-21.5,-3.2,0.0006,yes
+v7,v8,dirty files under 70,10.8,0.0,24.1,0.9362,no
+v7,v8,good above dirty,1.6,-8.7,12.4,0.6202,no
+v7,v8,original at least its twin,-7.4,-25.9,10.3,0.1534,no
+v7,v9,good files at 90 or more,-4.5,-12.5,3.1,0.0894,no
+v7,v9,dirty files under 70,-2.7,-9.1,0.0,0,no
+v7,v9,good above dirty,-3.4,-9.3,2.2,0.1172,no
+v7,v9,original at least its twin,-3.7,-16.7,8.7,0.1826,no
+v7,v10,good files at 90 or more,-4.5,-13.8,4.5,0.1219,no
+v7,v10,dirty files under 70,8.1,-7.7,24.2,0.8075,no
+v7,v10,good above dirty,7.4,-3.6,18.6,0.9068,no
+v7,v10,original at least its twin,11.1,-4.2,27.3,0.8796,no
+v7,v11,good files at 90 or more,-9.1,-19.4,1.4,0.0274,no
+v7,v11,dirty files under 70,18.9,4.8,34.1,0.9922,yes
+v7,v11,good above dirty,7.0,-4.0,18.0,0.8925,no
+v7,v11,original at least its twin,11.1,-4.2,27.3,0.8796,no
+v8,v9,good files at 90 or more,7.6,0.0,15.6,0.9668,no
+v8,v9,dirty files under 70,-13.5,-25.6,-3.1,0,yes
+v8,v9,good above dirty,-5.0,-15.5,4.7,0.1623,no
+v8,v9,original at least its twin,3.7,-8.3,17.2,0.6014,no
+v8,v10,good files at 90 or more,7.6,0.0,15.6,0.9666,no
+v8,v10,dirty files under 70,-2.7,-12.5,6.2,0.1843,no
+v8,v10,good above dirty,5.7,-4.1,15.8,0.8737,no
+v8,v10,original at least its twin,18.5,4.5,34.8,0.9956,yes
+v8,v11,good files at 90 or more,3.0,-6.2,12.5,0.687,no
+v8,v11,dirty files under 70,8.1,-2.9,20.5,0.8756,no
+v8,v11,good above dirty,5.3,-4.6,15.5,0.8505,no
+v8,v11,original at least its twin,18.5,4.5,34.8,0.9956,yes
+v9,v10,good files at 90 or more,0.0,-6.1,6.1,0.3979,no
+v9,v10,dirty files under 70,10.8,-3.2,25.6,0.9053,no
+v9,v10,good above dirty,10.8,0.7,21.3,0.983,yes
+v9,v10,original at least its twin,14.8,3.3,29.6,0.9828,yes
+v9,v11,good files at 90 or more,-4.5,-12.7,3.1,0.0877,no
+v9,v11,dirty files under 70,21.6,6.2,37.1,0.9961,yes
+v9,v11,good above dirty,10.4,0.2,20.9,0.977,yes
+v9,v11,original at least its twin,14.8,3.3,29.6,0.9828,yes
+v10,v11,good files at 90 or more,-4.5,-10.3,0.0,0,no
+v10,v11,dirty files under 70,10.8,2.4,21.6,0.9846,yes
+v10,v11,good above dirty,-0.4,-3.8,3.2,0.3893,no
+v10,v11,original at least its twin,0.0,0.0,0.0,0,no

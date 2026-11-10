@@ -1,0 +1,25 @@
+version,mark,share_pct,low_pct,high_pct
+v6,good files at 90 or more,0.0,0.0,0.0
+v6,dirty files under 70,89.2,78.0,97.6
+v6,good above dirty,61.8,50.0,73.3
+v6,original at least its twin,92.6,81.2,100.0
+v7,good files at 90 or more,48.5,36.5,60.3
+v7,dirty files under 70,64.9,48.6,80.0
+v7,good above dirty,57.8,46.0,69.4
+v7,original at least its twin,85.2,70.8,96.8
+v8,good files at 90 or more,36.4,25.0,47.9
+v8,dirty files under 70,75.7,61.3,88.9
+v8,good above dirty,59.5,47.7,71.1
+v8,original at least its twin,77.8,60.7,92.6
+v9,good files at 90 or more,43.9,32.2,55.9
+v9,dirty files under 70,62.2,46.2,77.8
+v9,good above dirty,54.4,42.5,66.6
+v9,original at least its twin,81.5,65.4,95.7
+v10,good files at 90 or more,43.9,32.1,56.1
+v10,dirty files under 70,73.0,58.1,86.7
+v10,good above dirty,65.2,54.6,75.4
+v10,original at least its twin,96.3,87.5,100.0
+v11,good files at 90 or more,39.4,27.6,51.4
+v11,dirty files under 70,83.8,71.1,94.7
+v11,good above dirty,64.8,54.2,75.1
+v11,original at least its twin,96.3,87.5,100.0
