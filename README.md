@@ -47,9 +47,9 @@ ots verify SHA256SUMS.ots
 
 ## How to cite
 
-Faulkner-Pearce, A. (2026). *Aseryx research: held-out tests of the Aseryx quality score* (Version heldout9-v1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24117307
+Faulkner-Pearce, A. (2026). *Aseryx research: held-out tests of the Aseryx quality score* (Version heldout9-v1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24120831
 
-Version heldout9-v1 was archived as "held-out tests of the Aseryx readiness score" ([10.5281/zenodo.24117308](https://doi.org/10.5281/zenodo.24117308)). heldout9-v1.1 holds the same set 9 files and results, with the completed OpenTimestamps proof, a note on the licences of derived files, and the approved name, quality score.
+Version heldout9-v1 was archived as "held-out tests of the Aseryx readiness score" ([10.5281/zenodo.24117308](https://doi.org/10.5281/zenodo.24117308)). heldout9-v1.1 holds the same set 9 files and results, with the completed OpenTimestamps proof, the [methods note](METHODS.md), a note on the licences of derived files, and the approved name, quality score.
 
 Each release is archived on Zenodo with its own DOI. [10.5281/zenodo.24117307](https://doi.org/10.5281/zenodo.24117307) always points to the latest. GitHub's "Cite this repository" button gives the same citation from `CITATION.cff`.
 
