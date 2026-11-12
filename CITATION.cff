@@ -17,6 +17,10 @@ authors:
     given-names: Austin
     affiliation: Aseryx
     orcid: "https://orcid.org/0009-0003-2359-2969"
+  - family-names: Diallo
+    given-names: Talabiou
+    affiliation: Aseryx
+    orcid: "https://orcid.org/0009-0000-4075-3347"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.24117307
 repository-code: "https://github.com/Aseryx/aseryx_research"
