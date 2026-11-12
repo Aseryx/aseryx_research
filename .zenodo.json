@@ -17,11 +17,6 @@
       "identifier": "https://aseryx.xyz/benchmarks",
       "relation": "isDocumentedBy",
       "resource_type": "other"
-    },
-    {
-      "identifier": "https://github.com/Aseryx/aseryx_research",
-      "relation": "isSupplementTo",
-      "resource_type": "other"
     }
   ]
 }
