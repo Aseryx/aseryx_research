@@ -1,7 +1,7 @@
 {
   "title": "Aseryx research: held-out tests of the Aseryx quality score",
   "upload_type": "dataset",
-  "description": "<p>The test record behind the Aseryx quality score, a 0 to 100 rating of how clean and well-formed a dataset is.</p><p>Held-out set 9: 160 public files registered before download, labelled from their publishers' own documentation, and scored once by every version of the score from v6 to v11. No version passed.</p><p>The record gives every file's source, licence, SHA-256 and score per version, 95% bootstrap intervals on every comparison, every exclusion and deviation, and a Groth16 zero-knowledge proof of every v11 score, checkable against a published verification key and a verifier contract on Avalanche Fuji. The scoring rules and engines are not published.</p>",
+  "description": "<p>The test record behind the Aseryx quality score, a 0 to 100 rating of how clean and well-formed a dataset is.</p><p>Held-out set 9: 160 public files registered before download, labelled from their publishers' own documentation, and scored once by every version of the score from v6 to v11. No version passed.</p><p>The record gives every file's source, licence, SHA-256 and score per version, 95% bootstrap intervals on every comparison, every exclusion and deviation, and a Groth16 zero-knowledge proof of every v11 score, checkable against a published verification key and a verifier contract on Avalanche Fuji. The scoring rules and engines are not published.</p><p>METHODS.md is a short methods note: how the set was designed and run, what it found, and what it cannot show.</p>",
   "creators": [
     {
       "name": "Faulkner-Pearce, Austin",
@@ -16,6 +16,11 @@
     {
       "identifier": "https://aseryx.xyz/benchmarks",
       "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://github.com/Aseryx/aseryx_research",
+      "relation": "isSupplementTo",
       "resource_type": "other"
     }
   ]
