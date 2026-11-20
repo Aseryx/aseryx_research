@@ -9,7 +9,7 @@ Nothing under a test folder is written by hand. The files are generated in the p
 | Files | Made by |
 |---|---|
 | `heldout<N>/README.md`, `registration.md`, `files.csv`, `intervals.csv`, `differences.csv` | `node tools/publish-research.mjs` in `aseryx_benchmarks`. It recomputes every mark from the scores it publishes and stops when one differs from the record, when a proof disagrees, or when a private term reaches an output. |
-| `heldout<N>/proofs/`, `verification_key.json` | `formula/harness/proofs.js --artifacts <production circuit> --save` in `aseryx_benchmarks`, with the circuit and key the product uses. |
+| `heldout<N>/proofs/`, `verification_key.json` | `formula/tabular/harness/proofs.js --artifacts <production circuit> --save` in `aseryx_benchmarks`, with the circuit and key the product uses. |
 | `heldout<N>/SHA256SUMS` and `.ots` files | `shasum -a 256` over the folder, then `ots stamp` (OpenTimestamps). |
 
 To change a number or a sentence in a test folder, change the record or the generator in `aseryx_benchmarks` and generate again. Edit only the repository-level files here by hand (`README.md`, `REGISTERING.md`, `AGENTS.md`, `CITATION.cff`, `.zenodo.json`, `LICENSE.md`).
