@@ -1,0 +1,21 @@
+group,earlier,later,mark,difference_points,low_points,high_points,share_of_resamples_later_ahead,interval_excludes_zero
+all files,v11.0,v12.0,good above dirty,-0.1,-2.6,+2.4,0.487,no
+all files,v11.0,v12.0,dirty files under 70,+0.0,+0.0,+0.0,0,no
+all files,v11.0,v12.0,good files at 90 or more,+0.0,+0.0,+0.0,0,no
+all files,v11.0,v12.0,good files under 50,+0.0,+0.0,+0.0,0,no
+all files,v11.0,v12.0,original at least its twin,+0.0,+0.0,+0.0,0,no
+all files,v11.0 data alone,v12.0,good above dirty,-0.1,-2.6,+2.4,0.487,no
+all files,v11.0 data alone,v12.0,dirty files under 70,+0.0,+0.0,+0.0,0,no
+all files,v11.0 data alone,v12.0,good files at 90 or more,+0.0,+0.0,+0.0,0,no
+all files,v11.0 data alone,v12.0,good files under 50,+0.0,+0.0,+0.0,0,no
+all files,v11.0 data alone,v12.0,original at least its twin,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0,v12.0,good above dirty,-1.8,-6.1,+0.0,0,no
+database-style files,v11.0,v12.0,dirty files under 70,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0,v12.0,good files at 90 or more,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0,v12.0,good files under 50,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0,v12.0,original at least its twin,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0 data alone,v12.0,good above dirty,-1.8,-6.1,+0.0,0,no
+database-style files,v11.0 data alone,v12.0,dirty files under 70,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0 data alone,v12.0,good files at 90 or more,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0 data alone,v12.0,good files under 50,+0.0,+0.0,+0.0,0,no
+database-style files,v11.0 data alone,v12.0,original at least its twin,+0.0,+0.0,+0.0,0,no
