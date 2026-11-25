@@ -1,0 +1,31 @@
+group,version,mark,share_pct,low_pct,high_pct
+all files,v11.0,good above dirty,58.3,45.8,70.4
+all files,v11.0,dirty files under 70,85.0,73.3,95.1
+all files,v11.0,good files at 90 or more,23.8,11.4,37.5
+all files,v11.0,good files under 50,59.5,44.4,74.4
+all files,v11.0,original at least its twin,100.0,100.0,100.0
+all files,v12.0,good above dirty,58.3,45.5,70.3
+all files,v12.0,dirty files under 70,85.0,73.3,95.1
+all files,v12.0,good files at 90 or more,23.8,11.4,37.5
+all files,v12.0,good files under 50,59.5,44.4,74.4
+all files,v12.0,original at least its twin,100.0,100.0,100.0
+all files,v11.0 data alone,good above dirty,58.3,45.8,70.4
+all files,v11.0 data alone,dirty files under 70,85.0,73.3,95.1
+all files,v11.0 data alone,good files at 90 or more,23.8,11.4,37.5
+all files,v11.0 data alone,good files under 50,59.5,44.4,74.4
+all files,v11.0 data alone,original at least its twin,100.0,100.0,100.0
+database-style files,v11.0,good above dirty,52.7,36.5,68.8
+database-style files,v11.0,dirty files under 70,81.5,65.5,95.7
+database-style files,v11.0,good files at 90 or more,13.0,0.0,28.6
+database-style files,v11.0,good files under 50,73.9,54.5,91.3
+database-style files,v11.0,original at least its twin,100.0,100.0,100.0
+database-style files,v12.0,good above dirty,50.9,34.8,67.1
+database-style files,v12.0,dirty files under 70,81.5,65.5,95.7
+database-style files,v12.0,good files at 90 or more,13.0,0.0,28.6
+database-style files,v12.0,good files under 50,73.9,54.5,91.3
+database-style files,v12.0,original at least its twin,100.0,100.0,100.0
+database-style files,v11.0 data alone,good above dirty,52.7,36.5,68.8
+database-style files,v11.0 data alone,dirty files under 70,81.5,65.5,95.7
+database-style files,v11.0 data alone,good files at 90 or more,13.0,0.0,28.6
+database-style files,v11.0 data alone,good files under 50,73.9,54.5,91.3
+database-style files,v11.0 data alone,original at least its twin,100.0,100.0,100.0
