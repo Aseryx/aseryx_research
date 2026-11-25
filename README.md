@@ -10,6 +10,7 @@ The quality score rates one dataset from 0 to 100 on how clean and well-formed i
 
 | Folder | What it holds |
 |---|---|
+| [heldout10/](heldout10/README.md) | Held-out set 10: files registered and stamped before download, scored once by v11 and v12. v12 matches v11. |
 | [heldout9/](heldout9/README.md) | Held-out set 9: 160 files registered before download, scored once by every version of the score from v6 to v11. No version passed. |
 | [METHODS.md](METHODS.md) | A short methods note: how set 9 was designed and run, what it found, and what it cannot show |
 
