@@ -7,7 +7,9 @@ abstract: >-
   clean and well-formed a dataset is. Held-out set 9: 160 public files
   registered before download, labelled from their publishers' own documentation,
   and scored once by every version of the score from v6 to v11. No version
-  passed. The record gives every file's source, licence, SHA-256 and score per
+  passed. Held-out set 10: 113 public files registered and stamped before any
+  download, scored once by v11 and v12; v12 matches v11's accuracy from the data
+  alone. The record gives every file's source, licence, SHA-256 and score per
   version, 95% bootstrap intervals on every comparison, every exclusion and
   deviation, and a Groth16 zero-knowledge proof of every v11 score, checkable
   against a published verification key and a verifier contract on Avalanche
@@ -28,5 +30,5 @@ keywords:
   - zero-knowledge proofs
   - Groth16
   - benchmarks
-version: heldout9-v1.1
-date-released: "2026-11-10"
+version: heldout10-v1
+date-released: "2026-11-24"
